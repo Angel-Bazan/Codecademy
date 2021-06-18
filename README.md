@@ -24,3 +24,17 @@ const newYearsResolutions = ['Keep a journal', 'Take a falconry class'];
 console.log(newYearsResolutions.length);
 // Output: 2
 ```
+
+## The .push() Method 
+.push() allows us to add items to the end of an array. We access the push method by using dot notation. Than we call it like a function. That's because .push() is a function and one that JavaScript allows us to use right on an array. It can take a single argument or multiple arguments separated by commas.
+
+### Example of .push() Method 
+```jsx 
+const itemTracker = ['item 0', 'item 1', 'item 2'];
+ 
+itemTracker.push('item 3', 'item 4');
+ 
+console.log(itemTracker); 
+// Output: ['item 0', 'item 1', 'item 2', 'item 3', 'item 4'];
+```
+
