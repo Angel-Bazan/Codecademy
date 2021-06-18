@@ -38,3 +38,17 @@ console.log(itemTracker);
 // Output: ['item 0', 'item 1', 'item 2', 'item 3', 'item 4'];
 ```
 
+## The .pop() Method 
+Another array method, .pop() removes the last item of an array. .pop() does not take any arguments, it simplly removes the last element. .pop() returns the values of the last element. .pop() is a method that mutates the initial array.
+
+### Example of .pop() Method 
+```jsx 
+const newItemTracker = ['item 0', 'item 1', 'item 2'];
+ 
+const removed = newItemTracker.pop();
+ 
+console.log(newItemTracker); 
+// Output: [ 'item 0', 'item 1' ]
+console.log(removed);
+// Output: item 2
+```
