@@ -14,3 +14,13 @@ Each element in an array has a numbered position known as its index. We can acce
 const hello = 'Hello World';
 console.log(hello[6]);
 ```
+## The .length property 
+One of an array's built-in properties in length and it returns the number of items in the array. We access the .length property just like we do with strings. We use dot notation, chaining a period with the property name to the array, to access the length property.
+
+### length property example 
+```jsx 
+const newYearsResolutions = ['Keep a journal', 'Take a falconry class'];
+ 
+console.log(newYearsResolutions.length);
+// Output: 2
+```
