@@ -52,3 +52,13 @@ console.log(newItemTracker);
 console.log(removed);
 // Output: item 2
 ```
+
+## Nested Arrays 
+When an array contains another array it is known as a nested array. To access the nested arrays we can use bracker notation with the index value. 
+
+### Example of Nested Arrays 
+```jsx 
+const nestedArr = [[1], [2, 3]];
+ 
+console.log(nestedArr[1]); // Output: [2, 3]
+```
